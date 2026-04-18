@@ -21,7 +21,8 @@ cp .example.env .env
 ## 使い方
 
 ```bash
-make pause   # プロジェクトを pause する
+make pause    # プロジェクトを pause する
+make unpause  # プロジェクトを unpause する
 ```
 
 実行するとプロジェクトIDの入力を求められます。
@@ -31,3 +32,4 @@ make pause   # プロジェクトを pause する
 | ファイル | 説明 |
 |----------|------|
 | `src/pause.ts` | 指定したプロジェクトを pause する |
+| `src/unpause.ts` | 指定したプロジェクトを unpause する |
